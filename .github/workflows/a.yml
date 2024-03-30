@@ -4,4 +4,4 @@ jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Hello, GitHub Actions!'
+      - run: bash -c "echo 'Hello, GitHub Actions!' && sleep 10"
